@@ -37,7 +37,7 @@ STRING_LENGTH=5
 ```
 
 
-- **AUTHENTICATION_KEY:** Your secure password for authentication..
+- **AUTHENTICATION_KEY:** Your secure password for authentication.
 - **UPLOAD_DIRECTORY:** The directory where files will be uploaded.
 - **DOMAIN_URL:** Your domain URL for generating file URLs.
 - **STRING_LENGTH:** The desired length of the random string for file names.
