@@ -30,9 +30,9 @@ To set up your custom uploader, edit the provided .env file with your configurat
 Here's an example of how your .env file might look:
 
 ```bash
-AUTHENTICATION_KEY=YourAuthenticationKey
-UPLOAD_DIRECTORY=ss/
-DOMAIN_URL=https://yourdomain.com/
+AUTHENTICATION_KEY=AuthenticationKey
+UPLOAD_DIRECTORY=ss
+DOMAIN_URL=https://domain.com
 STRING_LENGTH=5
 ```
 
@@ -47,9 +47,9 @@ STRING_LENGTH=5
 1. Open ShareX on your computer.
 2. Go to `Destinations` and select `Custom uploader settings`.
 3. Click `New` under `Uploaders`.
-4. Set `Name` to `Your Custom Uploader`.
+4. Set `Name` to `Custom Uploader`.
 5. Set `Method` to `POST`.
-6. Set `Request URL` to `https://yourdomain.com/uploader.php`.
+6. Set `Request URL` to `https://domain.com/uploader.php`.
 7. Set `Body` to `Form data (multipart/form-data)`.
 8. Add a `Name` field with the name `authenticationKey` and the value being your `AUTHENTICATION_KEY`.
 9. Set `File from name` to `sharex`.
@@ -69,4 +69,4 @@ STRING_LENGTH=5
 
 **License:**
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the [MIT](https://github.com/AshiePleb/sharex-custom-uploader/blob/main/LICENSE) License. See the LICENSE file for details.
